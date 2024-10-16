@@ -2752,7 +2752,7 @@ body::after {
     grid-template-columns: 1fr
   }
   .hero__content {
-    order: 2
+    order: 1
   }
   .hero__text {
     margin-bottom: 2.5rem
@@ -2769,7 +2769,7 @@ body::after {
   }
   .hero__images {
     gap: .625rem;
-    order: 1
+    order: 2
   }
   .benefit__text {
     line-height: 1.2
