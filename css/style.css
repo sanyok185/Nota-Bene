@@ -1560,7 +1560,8 @@ body::after {
   line-height: 1.5
 }
 .item-contact__text {
-  color: #0e384c
+  color: #0e384c;
+  line-height: 1.8
 }
 .loading-container {
   margin: 40px auto
@@ -2331,6 +2332,9 @@ body::after {
   .contact__items:not(:last-child) {
     margin-bottom: 1.9375rem
   }
+  .item-contact__text {
+    font-size: 1rem
+  }
   .page-us__about {
     padding-top: 3.75rem
   }
@@ -2798,6 +2802,9 @@ body::after {
   .contact__items {
     grid-template-columns: 1fr
   }
+  .item-contact__text {
+    line-height: 1.42
+  }
   .questions__content {
     flex-direction: column
   }
@@ -3096,6 +3103,9 @@ body::after {
   .contact__items:not(:last-child) {
     margin-bottom: 2.5rem
   }
+  .item-contact__text {
+    font-size: .875rem
+  }
   .page-us__about {
     padding-top: 1.875rem
   }
@@ -3327,6 +3337,9 @@ body::after {
   }
   .contact__items:not(:last-child) {
     margin-bottom: clamp(1.9375rem ,2.7087628866rem + -.9278350515vw ,2.5rem)
+  }
+  .item-contact__text {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
   }
   .page-us__about {
     padding-top: clamp(1.875rem ,1.1791237113rem + 3.0927835052vw ,3.75rem)
