@@ -867,19 +867,19 @@ body::after {
   transition: all .5s 0s
 }
 .hero__image:nth-child(2) {
-  transition: all .5s .05s
+  transition: all .5s .25s
 }
 .hero__image:nth-child(3) {
-  transition: all .5s .1s
+  transition: all .5s .5s
 }
 .hero__image:nth-child(4) {
-  transition: all .5s .15s
+  transition: all .5s .7s
 }
 .hero__image:nth-child(5) {
-  transition: all .5s .2s
+  transition: all .5s .8s
 }
 .hero__image:nth-child(6) {
-  transition: all .5s .25s
+  transition: all .5s .95s
 }
 .benefit {
   display: flex;
