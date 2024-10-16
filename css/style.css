@@ -676,7 +676,8 @@ body::after {
 }
 .spollers__body.open {
   visibility: visible;
-  opacity: 1
+  opacity: 1;
+  pointer-events: all
 }
 .spollers__title {
   list-style: none;
@@ -1401,7 +1402,10 @@ body::after {
   margin-bottom: 1.25rem
 }
 .item-comfort__text {
-  color: #0e384c
+  line-height: 1.8;
+  color: #0e384c;
+  display: grid;
+  gap: 1.25rem
 }
 .feedback__body {
   display: grid;
@@ -2297,6 +2301,9 @@ body::after {
   .comfort__title {
     margin-bottom: 3.125rem
   }
+  .item-comfort__text {
+    font-size: 1rem
+  }
   .feedback {
     padding-top: 6.25rem
   }
@@ -2770,6 +2777,9 @@ body::after {
     flex-wrap: wrap;
     justify-content: auto
   }
+  .item-comfort__text {
+    line-height: 1.42
+  }
   .feedback__slide {
     padding: 1.875rem
   }
@@ -3041,6 +3051,9 @@ body::after {
   .comfort__title {
     margin-bottom: 1.25rem
   }
+  .item-comfort__text {
+    font-size: .875rem
+  }
   .feedback {
     padding-top: 5rem
   }
@@ -3263,6 +3276,9 @@ body::after {
   }
   .comfort__title {
     margin-bottom: clamp(1.25rem ,.5541237113rem + 3.0927835052vw ,3.125rem)
+  }
+  .item-comfort__text {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
   }
   .feedback {
     padding-top: clamp(5rem ,4.5360824742rem + 2.0618556701vw ,6.25rem)
