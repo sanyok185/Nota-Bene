@@ -2765,7 +2765,8 @@ body::after {
   }
   .hero__images {
     gap: .625rem;
-    order: 1
+    order: 1;
+    display: none
   }
   .benefit__text {
     line-height: 1.2
