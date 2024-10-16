@@ -1667,7 +1667,8 @@ body::after {
 }
 .questions__ask {
   color: #fff;
-  margin-bottom: .3125rem
+  margin-bottom: .3125rem;
+  line-height: 1.8
 }
 .questions__call {
   font-weight: 600;
@@ -1744,7 +1745,8 @@ body::after {
   padding-bottom: 1.5625rem
 }
 .spollers-question__text {
-  color: #527282
+  color: #527282;
+  line-height: 1.8
 }
 .clinic {
   background: #f9fcff
@@ -2341,6 +2343,12 @@ body::after {
   .questions__body:not(:last-child) {
     margin-bottom: 4.25rem
   }
+  .questions__ask {
+    font-size: 1rem
+  }
+  .spollers-question__text {
+    font-size: 1rem
+  }
   .clinic {
     padding-top: 6.5rem
   }
@@ -2796,8 +2804,14 @@ body::after {
   .questions__block {
     display: none
   }
+  .questions__ask {
+    line-height: 1.42
+  }
   .spollers-question__title {
     padding: 1.25rem 1.875rem 1.25rem 0
+  }
+  .spollers-question__text {
+    line-height: 1.42
   }
   .hero-service__container {
     gap: 2.5rem;
@@ -3094,6 +3108,12 @@ body::after {
   .questions__body:not(:last-child) {
     margin-bottom: 1.875rem
   }
+  .questions__ask {
+    font-size: .875rem
+  }
+  .spollers-question__text {
+    font-size: .875rem
+  }
   .clinic {
     padding-top: 5rem
   }
@@ -3319,6 +3339,12 @@ body::after {
   }
   .questions__body:not(:last-child) {
     margin-bottom: clamp(1.875rem ,.993556701rem + 3.9175257732vw ,4.25rem)
+  }
+  .questions__ask {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
+  }
+  .spollers-question__text {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
   }
   .clinic {
     padding-top: clamp(5rem ,4.4432989691rem + 2.4742268041vw ,6.5rem)
