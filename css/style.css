@@ -896,7 +896,7 @@ body::after {
   align-items: center
 }
 .benefit:nth-child(1) {
-  transition: all .9s .6s;
+  transition: all .8s .5s;
   opacity: 0;
   -webkit-transform: translate(0,1.875rem);
   transform: translate(0,1.875rem)
@@ -907,7 +907,7 @@ body::after {
   transform: translate(0)
 }
 .benefit:nth-child(2) {
-  transition: all .9s .7s;
+  transition: all .8s .6s;
   opacity: 0;
   -webkit-transform: translate(0,1.875rem);
   transform: translate(0,1.875rem)
@@ -918,7 +918,7 @@ body::after {
   transform: translate(0)
 }
 .benefit:nth-child(3) {
-  transition: all .9s .8s;
+  transition: all .8s .7s;
   opacity: 0;
   -webkit-transform: translate(0,1.875rem);
   transform: translate(0,1.875rem)
@@ -1448,6 +1448,9 @@ body::after {
 }
 .swiper-feedback__text {
   flex: 1 1 auto;
+  line-height: 1.8;
+  display: grid;
+  gap: 1.25rem;
   color: #527282
 }
 .swiper-feedback__text:not(:last-child) {
@@ -2321,6 +2324,9 @@ body::after {
   .swiper-feedback:not(:last-child) {
     margin-bottom: 4.1875rem
   }
+  .swiper-feedback__text {
+    font-size: 1rem
+  }
   .swiper-pagination {
     margin-top: 3.125rem
   }
@@ -2806,6 +2812,9 @@ body::after {
   .feedback__slide {
     padding: 1.875rem
   }
+  .swiper-feedback__text {
+    line-height: 1.42
+  }
   .contact__items {
     grid-template-columns: 1fr
   }
@@ -3098,6 +3107,9 @@ body::after {
   .swiper-feedback:not(:last-child) {
     margin-bottom: 2.5rem
   }
+  .swiper-feedback__text {
+    font-size: .875rem
+  }
   .swiper-pagination {
     margin-top: 1.875rem
   }
@@ -3335,6 +3347,9 @@ body::after {
   }
   .swiper-feedback:not(:last-child) {
     margin-bottom: clamp(2.5rem ,1.8737113402rem + 2.7835051546vw ,4.1875rem)
+  }
+  .swiper-feedback__text {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
   }
   .swiper-pagination {
     margin-top: clamp(1.875rem ,1.4110824742rem + 2.0618556701vw ,3.125rem)
