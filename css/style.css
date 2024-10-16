@@ -1311,7 +1311,8 @@ body::after {
   margin-bottom: .625rem
 }
 .item-why__text {
-  color: #fff
+  color: #fff;
+  line-height: 1.8
 }
 .stat-why {
   position: relative;
@@ -2293,6 +2294,9 @@ body::after {
   .item-why__icon {
     font-size: 3rem
   }
+  .item-why__text {
+    font-size: 1rem
+  }
   .comfort {
     padding-top: 6.25rem
   }
@@ -2789,6 +2793,9 @@ body::after {
     right: -2%;
     height: 100%
   }
+  .item-why__text {
+    line-height: 1.42
+  }
   .comfort__items {
     flex-wrap: wrap;
     justify-content: auto
@@ -3064,6 +3071,9 @@ body::after {
   .item-why__icon {
     font-size: 1.875rem
   }
+  .item-why__text {
+    font-size: .875rem
+  }
   .comfort {
     padding-top: 5rem
   }
@@ -3298,6 +3308,9 @@ body::after {
   }
   .item-why__icon {
     font-size: clamp(1.875rem ,1.4574742268rem + 1.8556701031vw ,3rem)
+  }
+  .item-why__text {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
   }
   .comfort {
     padding-top: clamp(5rem ,4.5360824742rem + 2.0618556701vw ,6.25rem)
