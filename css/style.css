@@ -2249,6 +2249,9 @@ body::after {
   .years__number {
     font-size: 2.5rem
   }
+  .years__text {
+    font-size: 1rem
+  }
   .services {
     padding-top: 6.25rem
   }
@@ -2784,6 +2787,9 @@ body::after {
   .about .about__list {
     gap: 1.25rem
   }
+  .years__text {
+    line-height: 1.42
+  }
   .services__items {
     gap: 1.25rem;
     grid-template-columns: repeat(2,auto)
@@ -3038,6 +3044,9 @@ body::after {
   .about__button {
     margin-top: 2.5rem
   }
+  .years__text {
+    font-size: .875rem
+  }
   .services {
     padding-top: 5rem
   }
@@ -3278,6 +3287,9 @@ body::after {
   }
   .about__button {
     margin-top: clamp(1.875rem ,2.7319587629rem + -1.0309278351vw ,2.5rem)
+  }
+  .years__text {
+    font-size: clamp(.875rem ,.8286082474rem + .206185567vw ,1rem)
   }
   .services {
     padding-top: clamp(5rem ,4.5360824742rem + 2.0618556701vw ,6.25rem)
