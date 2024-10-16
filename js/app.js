@@ -508,7 +508,6 @@
         _openToHash() {
             let classInHash = document.querySelector(`.${window.location.hash.replace("#", "")}`) ? `.${window.location.hash.replace("#", "")}` : document.querySelector(`${window.location.hash}`) ? `${window.location.hash}` : null;
             const buttons = document.querySelector(`[${this.options.attributeOpenButton} = "${classInHash}"]`) ? document.querySelector(`[${this.options.attributeOpenButton} = "${classInHash}"]`) : document.querySelector(`[${this.options.attributeOpenButton} = "${classInHash.replace(".", "#")}"]`);
-            this.youTubeCode = buttons.getAttribute(this.options.youtubeAttribute) ? buttons.getAttribute(this.options.youtubeAttribute) : null;
             if (buttons && classInHash) this.open(classInHash);
         }
         _setHash() {
@@ -4416,12 +4415,12 @@
     let body = document.querySelector("body");
     if (isMobile.any()) {
         body.classList.add("touch");
-        let arrow = document.querySelectorAll("#button");
+        let arrow = document.querySelectorAll(".arrow");
         for (let i = 0; i < arrow.length; i++) {
             let subMenu = arrow[i].nextElementSibling;
             let thisArrow = arrow[i];
             arrow[i].addEventListener("click", (function() {
-                for (let item of document.querySelectorAll("#subMenu")) if (item.classList.contains("open") && item !== subMenu) {
+                for (let item of document.querySelectorAll(".subMenu")) if (item.classList.contains("open") && item !== subMenu) {
                     item.classList.remove("open");
                     item.previousElementSibling.classList.remove("active");
                 }
