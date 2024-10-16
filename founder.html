@@ -5,9 +5,10 @@
 	<title>Про нас</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20241016211812">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241016213956">
 
 	<link rel="icon" type="image.webp" href="/favicon-48x48.webp" sizes="48x48">
+
 	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 	<link rel="shortcut icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.webp">
@@ -20,7 +21,7 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="Logo" /></a>
+				<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="Logo"></a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul data-spollers="991.98" class="menu__list spollers">
@@ -30,10 +31,10 @@
 							<li class="menu__item">
 								<details class="spollers__item">
 									<summary class="spollers__title arrow">
-										<a href="service.html" class="menu__link">Послуги</a>
-										<button type="button" data-spoller class="menu__arrow _icon-down-arrow"></button>
+										<a href="#" class="menu__link">Послуги</a>
+										<button type="button" data-spoller class="menu__arrow arrow _icon-down-arrow"></button>
 									</summary>
-									<div class="spollers__body" id="subMenu">
+									<div class="spollers__body subMenu">
 										<ul class="sub-menu__list">
 											<li><a href="service.html" class="sub-menu__link">Вініри</a></li>
 											<li><a href="service.html" class="sub-menu__link">Імпланти</a></li>
@@ -56,10 +57,11 @@
 										<a href="about.html" class="menu__link">Про нас</a>
 										<button type="button" data-spoller class="menu__arrow _icon-down-arrow"></button>
 									</summary>
-									<div class="spollers__body" id="subMenu">
+									<div class="spollers__body subMenu">
 										<ul class="sub-menu__list">
 											<li><a href="founder.html" class="sub-menu__link">Засновник</a></li>
 											<li><a href="about.html" class="sub-menu__link">Клініка</a></li>
+										</ul>
 									</div>
 								</details>
 							</li>
@@ -67,7 +69,7 @@
 								<a href="@files/price.pdf" download="price.pdf" class="menu__link">Прайс</a>
 							</li>
 							<li class="menu__item">
-								<a data-goto=".contact" href="#" class="menu__link">Контакти</a>
+								<a href="#contact" class="menu__link">Контакти</a>
 							</li>
 						</ul>
 					</nav>
@@ -93,6 +95,7 @@
 				</div>
 			</div>
 		</header>
+
 		<main class="page-us">
 			<nav class="page-us__breadcrumbs breadcrumbs">
 				<div class="breadcrumbs__container">
@@ -100,15 +103,19 @@
 						<li>
 							<a href="home.html">Головна</a>
 						</li>
-						<svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M1 1L6 6.5L1 12" stroke="#626E77" />
-						</svg>
+						<li>
+							<svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L6 6.5L1 12" stroke="#626E77" />
+							</svg>
+						</li>
 						<li>
 							<a href="about.html">Про нас</a>
 						</li>
-						<svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M1 1L6 6.5L1 12" stroke="#626E77" />
-						</svg>
+						<li>
+							<svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1 1L6 6.5L1 12" stroke="#626E77" />
+							</svg>
+						</li>
 						<li>
 							Засновник
 						</li>
@@ -279,7 +286,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20241016211812"></script>
+	<script src="js/app.min.js?_v=20241016213956"></script>
 </body>
 
 </html>

@@ -511,7 +511,9 @@ body::after {
 }
 .breadcrumbs__list li {
   font-size: 1rem;
-  color: #626e77
+  color: #626e77;
+  display: flex;
+  align-items: center
 }
 .breadcrumbs__list li:first-child a {
   font-weight: 600;
