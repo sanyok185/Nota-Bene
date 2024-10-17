@@ -5,13 +5,13 @@
 	<title>Про нас</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css?_v=20241017094253">
+	<link rel="stylesheet" href="css/style.min.css?_v=20241017155651">
 
 	<!-- <link rel="icon" type="image.webp" href="/favicon-48x48.webp" sizes="48x48"> -->
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+	<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg"> -->
 	<link rel="shortcut icon" href="/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.webp">
-	<link rel="manifest" href="/site.webmanifest">
+	<!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.webp"> -->
+	<!-- <link rel="manifest" href="/site.webmanifest"> -->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -191,34 +191,34 @@
 					<div class="clinic__slider swiper">
 						<div class="clinic__wrapper swiper-wrapper">
 							<div class="clinic__slide swiper-slide">
-								<a href="#" class="clinic__image">
+								<a data-popup="#gallery" href="#" class="clinic__image">
 									<img src="img/Clinic/01.webp" alt="Image">
 								</a>
-								<a href="#" class="clinic__image">
-									<img src="img/Clinic/01.webp" alt="Image">
-								</a>
-							</div>
-							<div class="clinic__slide swiper-slide">
-								<a href="#" class="clinic__image">
-									<img src="img/Clinic/01.webp" alt="Image">
-								</a>
-								<a href="#" class="clinic__image">
+								<a data-popup="#gallery" href="#" class="clinic__image">
 									<img src="img/Clinic/01.webp" alt="Image">
 								</a>
 							</div>
 							<div class="clinic__slide swiper-slide">
-								<a href="#" class="clinic__image">
+								<a data-popup="#gallery" href="#" class="clinic__image">
 									<img src="img/Clinic/01.webp" alt="Image">
 								</a>
-								<a href="#" class="clinic__image">
+								<a data-popup="#gallery" href="#" class="clinic__image">
 									<img src="img/Clinic/01.webp" alt="Image">
 								</a>
 							</div>
 							<div class="clinic__slide swiper-slide">
-								<a href="#" class="clinic__image">
+								<a data-popup="#gallery" href="#" class="clinic__image">
 									<img src="img/Clinic/01.webp" alt="Image">
 								</a>
-								<a href="#" class="clinic__image">
+								<a data-popup="#gallery" href="#" class="clinic__image">
+									<img src="img/Clinic/01.webp" alt="Image">
+								</a>
+							</div>
+							<div class="clinic__slide swiper-slide">
+								<a data-popup="#gallery" href="#" class="clinic__image">
+									<img src="img/Clinic/01.webp" alt="Image">
+								</a>
+								<a data-popup="#gallery" href="#" class="clinic__image">
 									<img src="img/Clinic/01.webp" alt="Image">
 								</a>
 							</div>
@@ -327,7 +327,7 @@
 						</div>
 					</div>
 					<div class="contact__map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.0421058081292!2d30.48068817640314!3d50.440316371590285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce92f1cd0c77%3A0xd8f04a53f64420a!2z0LLRg9C70LjRhtGPINCG0LLQsNC90LAg0J7Qs9GW0ZTQvdC60LAsIDE1LCDQmtC40ZfQsiwgMDMwNDk!5e0!3m2!1suk!2sua!4v1728912428086!5m2!1suk!2sua" style="border:0; filter: invert(90%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.0421058081292!2d30.48068817640314!3d50.440316371590285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce92f1cd0c77%3A0xd8f04a53f64420a!2z0LLRg9C70LjRhtGPINCG0LLQsNC90LAg0J7Qs9GW0ZTQvdC60LAsIDE1LCDQmtC40ZfQsiwgMDMwNDk!5e0!3m2!1suk!2sua!4v1728912428086!5m2!1suk!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 				</div>
 			</section>
@@ -433,7 +433,68 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20241017094253"></script>
+
+	<div id="gallery" aria-hidden="true" class="gallery__popup gallery-popup popup">
+		<div class="popup__wrapper gallery__wrapper">
+			<button data-close type="button" class="gallery__close">
+				<svg width="22" height="23" viewBox="0 0 22 23" fill="#FFF" xmlns="http://www.w3.org/2000/svg">
+					<path d="M1 21.4404L20.9941 1.44638" stroke="#FFF" stroke-width="2" stroke-linecap="round" />
+					<path d="M21 21.5239L1.00595 1.52987" stroke="#FFF" stroke-width="2" stroke-linecap="round" />
+				</svg>
+			</button>
+			<div class="popup__content gallery-popup__content">
+				<div class="gallery__slider gallery-popup__slider">
+					<div class="gallery-popup__wrapper swiper-wrapper">
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+						<div class="gallery__slide swiper-slide">
+							<div class="gallery__picture">
+								<img src="img/Clinic/01.webp" alt="Image">
+							</div>
+						</div>
+					</div>
+					<div class="gallery__arrows">
+						<button type="button" class="slider-arrow swiper-button-prev"></button>
+						<button type="button" class="slider-arrow swiper-button-next"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20241017155651"></script>
 </body>
 
 </html>
