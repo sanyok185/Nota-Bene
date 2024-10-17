@@ -813,9 +813,9 @@ body::after {
   color: #fed42a
 }
 .hero__button {
-  transition: opacity .6s .9s,background-color .35s,color .35s,-webkit-transform .6s .9s;
-  transition: opacity .6s .9s,transform .6s .9s,background-color .35s,color .35s;
-  transition: opacity .6s .9s,transform .6s .9s,background-color .35s,color .35s,-webkit-transform .6s .9s;
+  transition: opacity .8s ease .9s,background-color .35s,color .35s,-webkit-transform .8s ease .9s;
+  transition: opacity .8s ease .9s,transform .8s ease .9s,background-color .35s,color .35s;
+  transition: opacity .8s ease .9s,transform .8s ease .9s,background-color .35s,color .35s,-webkit-transform .8s ease .9s;
   opacity: 0;
   -webkit-transform: translate(1.25rem,0);
   transform: translate(1.25rem,0)
@@ -850,9 +850,19 @@ body::after {
   grid-column: span 2;
   aspect-ratio: 380/180
 }
+.hero__image:nth-child(2) img,
+.hero__image:nth-child(3) img,
+.hero__image:nth-child(5) img {
+  aspect-ratio: 380/180
+}
 .hero__image:nth-child(1),
 .hero__image:nth-child(4),
 .hero__image:nth-child(6) {
+  aspect-ratio: 180/180
+}
+.hero__image:nth-child(1) img,
+.hero__image:nth-child(4) img,
+.hero__image:nth-child(6) img {
   aspect-ratio: 180/180
 }
 .hero__image img {
@@ -868,22 +878,22 @@ body::after {
   opacity: 1
 }
 .hero__image:nth-child(1) {
-  transition: all .5s .1s
+  transition: all .5s .6s
 }
 .hero__image:nth-child(2) {
-  transition: all .5s .1s
-}
-.hero__image:nth-child(3) {
-  transition: all .5s .2s
-}
-.hero__image:nth-child(4) {
-  transition: all .5s .4s
-}
-.hero__image:nth-child(5) {
   transition: all .5s .5s
 }
+.hero__image:nth-child(3) {
+  transition: all .5s .4s
+}
+.hero__image:nth-child(4) {
+  transition: all .5s .3s
+}
+.hero__image:nth-child(5) {
+  transition: all .5s .2s
+}
 .hero__image:nth-child(6) {
-  transition: all .5s .6s
+  transition: all .5s .1s
 }
 .benefit {
   display: flex;
