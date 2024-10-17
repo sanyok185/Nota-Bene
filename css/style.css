@@ -1,9 +1,29 @@
-@import url(https://fonts.googleapis.com/css?family=Onest:regular,600,700&display=swap);
 @font-face {
   font-family: icons;
   font-display: swap;
   src: url(../fonts/icons.woff2) format("woff2");
   font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: Onest;
+  font-display: swap;
+  src: url(../fonts/Onest-Bold.woff2) format("woff2");
+  font-weight: 700;
+  font-style: normal
+}
+@font-face {
+  font-family: Onest;
+  font-display: swap;
+  src: url(../fonts/Onest-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal
+}
+@font-face {
+  font-family: Onest;
+  font-display: swap;
+  src: url(../fonts/Onest-SemiBold.woff2) format("woff2");
+  font-weight: 600;
   font-style: normal
 }
 [class*=_icon-]::before {
@@ -2033,6 +2053,9 @@ body::after {
 }
 .perfection__body:not(:last-child) {
   margin-bottom: 3.125rem
+}
+.perfection__title {
+  margin-bottom: 1.25rem
 }
 .perfection__text {
   max-width: 49.1875rem
