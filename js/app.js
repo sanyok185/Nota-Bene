@@ -239,6 +239,7 @@
                 bodyLockToggle();
                 document.documentElement.classList.toggle("menu-open");
             }
+            if (e.target.closest(".menu__link") && document.documentElement.classList.contains("menu-open") && !e.target.closest(".arrow")) functions_menuClose();
         }));
     }
     function functions_menuClose() {
@@ -6306,7 +6307,7 @@ PERFORMANCE OF THIS SOFTWARE.
     const da = new DynamicAdapt("max");
     da.init();
     let body = document.querySelector("body");
-    if (isMobile.any()) {
+    if (isMobile.any() && window.innerWidth > 991.98) {
         body.classList.add("touch");
         let arrow = document.querySelectorAll(".arrow");
         for (let i = 0; i < arrow.length; i++) {
